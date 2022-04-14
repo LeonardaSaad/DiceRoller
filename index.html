@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DiceRoller 1.0</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>DiceRoller 1.0</h1>
+  
+
+  <div id="input-num">
+    <label for="number">Qtd. dices:</label>
+    <input type="number" id="number" value="1">
+  </div>  
+
+  <div id="dices-button">
+    <div id="dices">
+      <p>Dices</p>
+      <input id="d6" type="radio" name="faces" value="6">
+      <label for="d6">D6</label><br>
+      
+      <input id="d10" type="radio" name="faces" value="10">
+      <label for="d10">D10</label><br>
+      
+      <input id="d20" type="radio" name="faces" value="20" checked>
+      <label for="d6">D20</label><br>
+    </div>
+  
+    <div id="button">
+      <button onclick="rolar()">ROLL</button>
+    </div>
+  </div>
+
+  <div>
+    <h3 id="soma">Total: ?</h3>
+    <p id="rolagens">???</p>
+  </div>
+
+
+  <footer>
+    <p>@LeonardaSaad<br>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
