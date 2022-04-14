@@ -40,7 +40,11 @@ input {
 }
 
 #dices {
-  margin: 6%;
+  margin: 40px;
+}
+
+. input:checked ~ .checkmark {
+    background-color: #2196F3;
 }
 
 #button {
@@ -60,7 +64,7 @@ button {
 }
 
 #res {
-  margin: 8%;
+  margin: 60px;
 }
 
 footer {
