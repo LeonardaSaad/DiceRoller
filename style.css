@@ -30,7 +30,6 @@ h1 {
   align-items: center;
 }
 
-
 input {
   border: none;
   border-radius: 3px;
@@ -41,10 +40,6 @@ input {
 
 #dices {
   margin: 40px;
-}
-
-. input:checked ~ .checkmark {
-    background-color: #2196F3;
 }
 
 #button {
