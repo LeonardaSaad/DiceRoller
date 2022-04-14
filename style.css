@@ -2,6 +2,7 @@
 
 
 html {
+  width: 100%;
   margin: 0;
   padding: 0;
 
@@ -38,6 +39,10 @@ input {
   padding: 2px;
 }
 
+#dices {
+  margin: 6%;
+}
+
 #button {
   width: calc(100%-80px);
   height: 20px;
@@ -54,15 +59,22 @@ button {
   border-radius: 10px;
 }
 
+#res {
+  margin: 8%;
+}
+
 footer {
   width: 100%;
-  height: 60px;
-  
+  height: 40px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
   margin-top: 40px;
-  font-size: 15px;
 
   background: #121212;
   color: #9e9e9e;
+  font-size: 15px;
 
   display: flex;
   align-items: center;
